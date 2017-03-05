@@ -1,0 +1,148 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #a7a7a7;
+    font-family: 'Helvetica', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display:inline;
+}
+
+label {
+    position: relative;
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+    left: 13px;
+    padding: 0 20px 0 0;
+    color: #000000;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-backface-visibility: hidden;
+    pointer-events: none;
+    font-size: 22px;
+}
+label .req {
+    margin: 2px;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #5185ab;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+a:hover {
+    color: #112228;
+}
+
+.form {
+    background: #ffffff;
+    padding: 10px;
+    max-width: 650px;
+    margin: 8px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px 4px #5185ab;
+
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+.field-wrap {
+    margin-bottom: 20px;
+}
+
+.nav {
+    text-align: center;
+}
+.nav li a {
+    padding: 0 10px 0 10px;
+}
+
+.main_content {
+    text-align: center;
+}
+
+.main_content_success {
+    text-align: center;
+    color: green;
+}
+
+.main_content_error {
+    text-align: center;
+    color: red;
+}
+
+.password_reqs {
+    padding: 5px 0 0 15px ;
+    margin: 0 0 0 0;
+    color: #000000;
+    font-size: x-small;
+}
+
+.banner {
+    margin: auto;
+    width: 100%;
+}
+
+h2 {
+
+    color: #000000;
+    left: 0;
+    width: 100%;
+    opacity : .9;
+
+}
+
+.image {
+    position: relative;
+    width: 100%; /* for IE 6 */
+    opacity : 0.9;
+}
+
+p {
+    color: #000000;
+}
+
+footer {
+    color: #000000;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    clear: both;
+}
+
+
+.menu_line {
+    width: 50%;
+    color: #ffffff;
+}
+
+#features {
+    display: inline-block;
+    margin:10px 10px 10px 10px;
+    flex-grow: 1;
+    width: 80%;
+    position: static;
+}
+
+#content {
+    width: 20%;
+    float: left;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+#feature_header {
+    text-align: center;
+}
